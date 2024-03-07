@@ -1,0 +1,72 @@
+@media(max-width:320px)
+{
+    .container-fluid{
+        width:100%;
+        display: block;
+        height:100vh;
+        border-radius: 0;
+        overflow: scroll;
+    }
+   .box{
+        width:320px;
+        padding:6%;
+        border-radius: 0 0 25px 25px;
+   } 
+
+   .box>div{
+        padding:8px 0 8px 0;
+        border-radius:50%;
+        width:100px ;
+        height: 100px;
+        margin:0 auto 2px auto;
+   }
+
+   .total{
+        font-size: 0.9em;
+   }
+
+   .division{
+    margin-bottom: 2px;
+    font-size: 2.2rem;
+   }
+
+   .result{
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+   }
+
+   .grade{
+    margin:0 auto 3% auto;
+    font-size: 1rem;
+    max-width: 400px;
+   }
+
+   .summary{
+        margin-bottom: 6%;
+   }
+
+   .marks{
+        font-size:2.6rem;
+   }
+
+   .box1{
+        padding: 3% 6% 8% 6%;
+        width: 100%;
+   }
+
+   .grid1{
+    padding:4%;
+   }
+
+   .grid2{
+    padding:4%;
+   }
+
+   .grid3{
+    padding:4%;
+   }
+
+   .grid4{
+    padding:4%;
+   }
+}

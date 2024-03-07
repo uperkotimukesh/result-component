@@ -16,26 +16,27 @@ body,html{
 .container-fluid{
     background-color:#fff;
     display: flex;
-    width: 50%;
+    width:75%;
     margin: 0 auto;
     border-radius: 2rem;
     border:none;
 }
 
+
 .box{
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: #fff;
-    width: 800px;
-    padding: 8%;
+    width:400px;
+    padding: 0%;
     text-align: center;
     border-radius: 2rem;
 }
 
 .box>div{
     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    padding: 15% 0 15% 0;
+    padding: 15% 0 10% 0;
     border-radius: 50%;
-    width: 200px;
+    width:200px;
     height:200px;
     margin: 0 auto 20% auto;
 }
@@ -44,6 +45,7 @@ body,html{
     margin-bottom: 15%;
     font-weight: 700;
     color: #ffffff;
+    padding: 25px;
 }
 
 .marks{
@@ -58,12 +60,13 @@ body,html{
 
 .division{
     color: #ffffff;
-    margin-bottom: 8px;
     font-size: 3.2em;
 }
 
 .grade{
     font-size: 0.9rem;
+    padding: 25px;
+    line-height: 24px;
 }
 
 .summary{
@@ -72,15 +75,16 @@ body,html{
 
 .box1{
     padding:8px 6px 8px 6px ;
-    width:75%;
+    width:400px;
     color: black;
     border-radius: 5%;
     box-shadow: 5px 5px 5px hsla(0, 0%, 77%, 0.247);
-    gap: 50%;
+    gap:100%;
+    background-color: #fff;
 }
 
 .grid1{
-    background-color: rgb(255, 197, 197);
+    background-color: rgb(255, 224, 224);
     color: #ff2c2c;
     display: flex;
     justify-content: space-between;
@@ -88,7 +92,7 @@ body,html{
     border-radius: 5%;
     align-items: center;
     margin: 7%;
-    width:210px;
+    width:250px;
     
 }
 
@@ -165,3 +169,4 @@ body,html{
 .btn:hover{
     background-color: #ff2c2c;
 }
+
